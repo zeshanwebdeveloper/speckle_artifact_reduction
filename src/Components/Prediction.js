@@ -1,11 +1,11 @@
 import React from "react";
-import { Component } from 'react';
+import { Link } from 'react-router-dom';
 
-function Contact() {
+function Prediction() {
     return (
         <div >
             <div className="container" style={{"width":"60%"}}>
-                <h2 className="text-center" style={{marginBottom:50}}>CONTACT US</h2>
+                <h2 className="text-center" style={{marginBottom:50}}>Upload Ultrasound noisy image and we'll de-noise it for you.</h2>
                 <div className="row">
                     <div className="col-sm-5">
                         <p>Contact us and we'll get back to you within 24 hours.</p>
@@ -30,8 +30,9 @@ function Contact() {
                         </div>
                     </div>
                 </div>
+                <Link to="/" class="btn btn-default">Log Out</Link>
             </div>
         </div>
     )
 }
-export default Contact
+export default Prediction

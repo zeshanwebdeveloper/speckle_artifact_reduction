@@ -10,7 +10,7 @@ function Contact() {
     return (
         <>
             <div className="container">
-            <h2 className="text-center">Team Members behind this Effort!</h2>
+            <h2 className="text-center">Team Members</h2>
                 <div className="row">
                     <div className="col-sm-4">
                         <div className="card" style={{ marginBottom: 50, marginTop:50 , "width": "80%" }}>

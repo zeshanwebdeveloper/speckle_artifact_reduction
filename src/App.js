@@ -9,6 +9,7 @@ import Signin from './Components/Signin';
 import Contact from './Components/Contact';
 import Home from './Components/Home';
 import About from './Components/About';
+import Prediction from './Components/Prediction';
 import {
   BrowserRouter,
   Routes,
@@ -18,11 +19,6 @@ import {
 function App() {
   return (
     <>
-    {/* <Team /> */}
-    {/* <Signin /> */}
-    {/* <Signup /> */}
-    {/* <Contact /> */}
-    {/* <Navbar /> */}
       <BrowserRouter>
       <Navbar />
         <Routes>
@@ -32,7 +28,7 @@ function App() {
           <Route exact path='/contact' element={<Contact />} />
           <Route exact path='/signup' element={<Signup />} />
           <Route exact path='/signin' element={<Signin />} />
-
+          <Route exact path='/prediction' element={<Prediction />} />
         </Routes>
         <Footer />
       </BrowserRouter> 

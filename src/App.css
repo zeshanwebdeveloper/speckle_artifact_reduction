@@ -52,3 +52,16 @@
 .container_card {
   padding: 2px 16px;
 }
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  margin-left: 50px;
+}
+
+.heading {
+  float: left;
+}

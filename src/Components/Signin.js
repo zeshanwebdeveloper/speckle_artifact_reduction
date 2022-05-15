@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 function Contact() {
     return (
@@ -19,7 +20,7 @@ function Contact() {
                     <div class="checkbox">
                         <label><input type="checkbox" name="remember" /> Remember me</label>
                     </div>
-                    <button type="submit" class="btn btn-default">Sign In</button>
+                    <Link to="/prediction" class="btn btn-default">Sign In</Link>
                 </form>
             </div>
         </div>
