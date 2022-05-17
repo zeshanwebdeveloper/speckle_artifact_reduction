@@ -4,7 +4,7 @@ import { Component } from 'react';
 function Contact() {
     return (
         <div >
-            <div className="container" style={{"width":"60%"}}>
+            <div className="container" style={{"width":"60%", height: 500, marginTop:100}}>
                 <h2 className="text-center" style={{marginBottom:50}}>CONTACT US</h2>
                 <div className="row">
                     <div className="col-sm-5">

@@ -1,5 +1,5 @@
 import React from "react";
-import doctor from "../images/home_pic.jpg";
+import doctor from "../images/home_pic.png";
 import '../App.css';
 function Home() {
 

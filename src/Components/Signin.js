@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Contact() {
     return (
         <div >
-            <div class="container" style={{marginBottom:50, "width":"40%"}}>
+            <div class="container" style={{marginBottom:50, "width":"40%", height: 500, marginTop:100}}>
                 <h2 className="text-center">Sign Up</h2>
                 <form action="/action_page.php">
                     <div class="form-group">
