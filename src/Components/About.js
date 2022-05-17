@@ -9,7 +9,7 @@ function Contact() {
     return (
         <>
             <div className="container" style={{height: 500, marginTop:100}}>
-                <h1 className="text-center" style={{ marginBottom: 50 }}>Acknowledgement</h1>
+                <h1 className="text-center" style={{ marginBottom: 50 }}>About Us</h1>
                 <h2>We would like to thank our supervisor Mr Zain Ul Abideen. Our supervisor Mr
                     Zain Ul Abideen assisted us every time when we need his help and he guided us
                     everytime and without him we would not be able to complete our project. He helped

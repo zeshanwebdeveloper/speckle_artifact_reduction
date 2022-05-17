@@ -9,7 +9,10 @@ function Prediction() {
                 <div>
                     <label for="formFileLg" className="form-label">Please upload only Ultrasound image!</label>
                     <input className="form-control form-control-lg" id="formFileLg" type="file"/>
-                    
+                    <br/><br/>
+                    <button type="button" class="btn btn-primary">Denoise it</button><br/><br/>
+                    <button type="button" class="btn btn-primary" style={{marginLef:5}}>Clear</button>
+
                 </div>
                 <br/>
                 <br/>
